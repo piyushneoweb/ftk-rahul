@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template name="Home" priority="29" t-name="website.homepage">
+      <t t-call="website.layout">
+        <t t-set="pageName" t-value="'homepage'"/>
+        <div id="wrap" class="oe_structure oe_empty">
+          <section class="s_title oe_img_bg oe_custom_bg" style="background-image: 
+            url('/theme_ftk_rm/static/src/img/background_homepage.jpeg');">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 mt128 mb128">
+                  <h1 class="text-center" style="font-size:24px; font-family: 'Nimbus Sans';     font‐size:24px; color:#777777; letter‐spacing:.3;">
+                    <b>
+                      <font style="color: rgb(0, 0, 0); font-size: 62px;">FONTEYNE</font>
+                    </b>
+                  </h1>
+                  <h3 class="text-center text-muted" style="font-size:17px; font-family:'Nimbus Sans'; color:#BADA55;">
+                    <font style="color: rgb(0, 0, 0); font-size: 48px;">THE KITCHEN</font>
+                  </h3>
+                </div>
+                
+                <div class="col-md-12 mb16 mt16">
+                  <div class="col-md-4 mb16 mt16">
+                      <a href="/shop" style="color:black;" class="btn btn-default btn-lg" data-original-title="" title="">Nos e-shop</a>
+                  </div>
+                  <div class="col-md-4 mb16 mt16">
+                      <a href="/shop" class="btn btn-default btn-lg" data-original-title="" title="">Nos e-shop</a>
+                  </div>
+                  <div class="col-md-4 mb16 mt16">
+                       <a href="/shop" class="btn btn-default btn-lg" data-original-title="" title="">Nous contactor</a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <h2 class="font_2" style="font-size:30px; text-align:center;">
+                <span class="color_14">
+                  <span style="font-size:30px;">
+                    <span style="letter-spacing:0.3em;">FONTEYNE THE KITCHEN</span>
+                  </span>
+                </span>
+              </h2>
+              <h3 class="text-center text-muted o_default_snippet_text">
+                <style type="text/css">h2.cjk { font-family: "Droid Sans Fallback"; }h2.ctl { font-family: "FreeSans"; }p { margin-bottom: 0.25cm; line-height: 120%; }a:link { }</style>
+              </h3>
+              <h2 class="western" align="center">
+                <font color="#e21c21">
+                  <font style="font-size: 15pt" size="4">NO COLORANTS - NO PRESERVATIVES - NATURAL - HEALTHY - HOME MADE - YUMMY</font>
+                </font>
+              </h2>
+              <div class="row">
+                <div class="col-md-12 mb16 mt16">
+                  <div class="col-md-6 mb16 mt16">
+                    <p> Nous sommes convaincus qu'une alimentation saine procure un réel bien-être. La saveur de nos plats préparés démontre qu'il est possible d'associer plaisir et santé. C'est avec une certaine fierté que nous vous proposons une nourriture saine et gastronomique. </p>
+                  </div>
+                  <div class="col-md-6 mb16 mt16">
+                    <p>Chaque recette est conçue par nos chefs en collaboration avec nos diététiciennes. Tous les plats élaborés par FONTEYNE THE KITCHEN sont préparés avec des produits frais et de saison sans ajout de colorants ni de conservateurs. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 mb16 mt16" align="center">
+                  <a href="/contactus" class="btn btn-default btn-lg" data-original-title="" title="">Plus d'informations sur la maison</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 mb16 mt16" align="center">
+                 Nous vous proposons différents e-shops : les produits de la carte "Toujours", des repas pour la semaine et notre service traiteur pour vos événements.<br/>
+
+    Enlevez votre commande au magasin de votre choix ou faites-vous livrer à domicile ou au bureau.
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="s_features">
+            <div class="container">
+              <div class="row mt16 mb16">
+                <div class="col-md-4 text-center mt0" style="background-size: cover; height:400px; background-image: url('/theme_ftk_rm/static/src/img/take-away.jpg');">
+                  <div style="color:#ffffff; font-size:25px; margin-top:50px; font-family: Arial,Helvetica,sans-serif;">
+                        CARTE "TOUJOURS"
+                    </div>
+                  <a href="/shop" class="btn btn-default btn-lg" style="margin-top:230px;" data-original-title="" title="">E-Shop</a>
+                </div>
+                <div class="col-md-4 text-center mt0" style="background-size: cover; height:400px; background-image: url('/theme_ftk_rm/static/src/img/weekbox.jpg');">
+                  <div style="font-size: 25px; margin-top:50px; color:#ffffff; font-family: Arial,Helvetica,sans-serif;">
+                    REPAS POUR LA SEMAINE
+                  </div>
+                  <a href="/shop" class="btn btn-default btn-lg" style="margin-top:230px;" data-original-title="" title="">E-Shop</a>
+                </div>
+                <div class="col-md-4 text-center mt0" style="background-size: cover; height:400px; background-image: url('/theme_ftk_rm/static/src/img/magasins2.jpg');">
+                  <div style="font-size: 25px; margin-top:50px; color:#ffffff; font-family: Arial,Helvetica,sans-serif;">
+                    SERVICE TRAITEUR
+                  </div>
+                  <a href="/shop" class="btn btn-default btn-lg" style="margin-top:230px;" data-original-title="" title="">E-Shop</a>
+                </div>
+              </div>
+              <div class="row mt16 mb16">
+                <h2 class="western" align="center">
+                 <font color="#e21c21">
+                   <font style="font-size: 10pt" size="4">NO COLORANTS - NO PRESERVATIVES - NATURAL - HEALTHY - HOME MADE - YUMMY</font>
+                 </font>
+                </h2>
+              </div>
+            </div>
+          </section>
+        </div>
+      </t>
+    </template>
+</odoo>
